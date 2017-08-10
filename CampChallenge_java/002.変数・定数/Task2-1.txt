@@ -1,0 +1,11 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+
+<%
+    
+String text = "Ž©ŒÈÐ‰î";
+
+text += "‚Í‚¶‚ß‚Ü‚µ‚ÄA‰ª–{¹“ß‚Å‚·";
+
+out.print(text);
+    
+%>
