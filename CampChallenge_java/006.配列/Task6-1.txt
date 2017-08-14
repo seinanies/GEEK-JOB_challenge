@@ -1,0 +1,23 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="java.util.ArrayList" %>
+
+//‚Ð‚Æ‚Â–Ú‚Ì‚â‚è•û
+<%
+    ArrayList<String> data1 = new ArrayList<String>();
+        
+     data1.add("10");
+     data1.add("100");
+     data1.add("soeda");
+     data1.add("hayashi");
+     data1.add("-20");
+     data1.add("118");
+     data1.add("END");
+     
+%>
+
+
+//‚Ó‚½‚Â–Ú‚Ì‚â‚è•û
+<%
+    String[] data = {"10","100","soeda","hayashi","-20","110","END"};
+    
+%>                           
